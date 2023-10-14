@@ -1,0 +1,502 @@
+└─# ./run.sh                              
+
+---> BATCH <---
+
+PID 3487 - CMD: work7
+process 3487 begins
+process 3487 ends
+                        Elapsed time = 7.374 secs
+                        Workload time = 7.374 secs
+PID 3488 - CMD: work7
+process 3488 begins
+process 3488 ends
+                        Elapsed time = 7.371 secs
+                        Workload time = 14.745 secs
+PID 3489 - CMD: work7
+process 3489 begins
+process 3489 ends
+                        Elapsed time = 7.349 secs
+                        Workload time = 22.094 secs
+PID 3490 - CMD: work7
+process 3490 begins
+process 3490 ends
+                        Elapsed time = 7.325 secs
+                        Workload time = 29.419 secs
+PID 3491 - CMD: work7
+process 3491 begins
+process 3491 ends
+                        Elapsed time = 7.412 secs
+                        Workload time = 36.831 secs
+WORKLOAD TIME: 36.831 seconds
+
+---> SJF <---
+
+PID 3531 - CMD: work7
+process 3531 begins
+process 3531 ends
+                        Elapsed time = 7.331 secs
+                        Workload time = 7.331 secs
+PID 3532 - CMD: work7
+process 3532 begins
+process 3532 ends
+                        Elapsed time = 7.354 secs
+                        Workload time = 14.685 secs
+PID 3533 - CMD: work7
+process 3533 begins
+process 3533 ends
+                        Elapsed time = 7.337 secs
+                        Workload time = 22.022 secs
+PID 3534 - CMD: work7
+process 3534 begins
+process 3534 ends
+                        Elapsed time = 7.367 secs
+                        Workload time = 29.389 secs
+PID 3536 - CMD: work7
+process 3536 begins
+process 3536 ends
+                        Elapsed time = 7.355 secs
+                        Workload time = 36.743 secs
+WORKLOAD TIME: 36.743 seconds
+
+---> RR <---
+
+process 3576 begins
+PID 3576 - CMD: ../work/work7
+                        Elapsed time = 1.000 secs
+                        Workload time = 1.000 secs
+process 3577 begins
+PID 3577 - CMD: ../work/work7
+                        Elapsed time = 1.000 secs
+                        Workload time = 2.000 secs
+process 3578 begins
+PID 3578 - CMD: ../work/work7
+                        Elapsed time = 1.000 secs
+                        Workload time = 3.000 secs
+process 3579 begins
+PID 3579 - CMD: ../work/work7
+                        Elapsed time = 1.000 secs
+                        Workload time = 4.001 secs
+process 3580 begins
+PID 3580 - CMD: ../work/work7
+                        Elapsed time = 1.000 secs
+                        Workload time = 5.001 secs
+PID 3576 - CMD: ../work/work7
+                        Elapsed time = 2.000 secs
+                        Workload time = 6.001 secs
+PID 3577 - CMD: ../work/work7
+                        Elapsed time = 2.000 secs
+                        Workload time = 7.001 secs
+PID 3578 - CMD: ../work/work7
+                        Elapsed time = 2.000 secs
+                        Workload time = 8.001 secs
+PID 3579 - CMD: ../work/work7
+                        Elapsed time = 2.000 secs
+                        Workload time = 9.001 secs
+PID 3580 - CMD: ../work/work7
+                        Elapsed time = 2.000 secs
+                        Workload time = 10.001 secs
+PID 3576 - CMD: ../work/work7
+                        Elapsed time = 3.000 secs
+                        Workload time = 11.001 secs
+PID 3577 - CMD: ../work/work7
+                        Elapsed time = 3.000 secs
+                        Workload time = 12.001 secs
+PID 3578 - CMD: ../work/work7
+                        Elapsed time = 3.000 secs
+                        Workload time = 13.001 secs
+PID 3579 - CMD: ../work/work7
+                        Elapsed time = 3.000 secs
+                        Workload time = 14.002 secs
+PID 3580 - CMD: ../work/work7
+                        Elapsed time = 3.000 secs
+                        Workload time = 15.002 secs
+PID 3576 - CMD: ../work/work7
+                        Elapsed time = 4.000 secs
+                        Workload time = 16.002 secs
+PID 3577 - CMD: ../work/work7
+                        Elapsed time = 4.000 secs
+                        Workload time = 17.002 secs
+PID 3578 - CMD: ../work/work7
+                        Elapsed time = 4.000 secs
+                        Workload time = 18.002 secs
+PID 3579 - CMD: ../work/work7
+                        Elapsed time = 4.000 secs
+                        Workload time = 19.002 secs
+PID 3580 - CMD: ../work/work7
+                        Elapsed time = 4.000 secs
+                        Workload time = 20.002 secs
+PID 3576 - CMD: ../work/work7
+                        Elapsed time = 5.000 secs
+                        Workload time = 21.002 secs
+PID 3577 - CMD: ../work/work7
+                        Elapsed time = 5.000 secs
+                        Workload time = 22.002 secs
+PID 3578 - CMD: ../work/work7
+                        Elapsed time = 5.000 secs
+                        Workload time = 23.002 secs
+PID 3579 - CMD: ../work/work7
+                        Elapsed time = 5.000 secs
+                        Workload time = 24.002 secs
+PID 3580 - CMD: ../work/work7
+                        Elapsed time = 5.000 secs
+                        Workload time = 25.002 secs
+PID 3576 - CMD: ../work/work7
+                        Elapsed time = 6.000 secs
+                        Workload time = 26.003 secs
+PID 3577 - CMD: ../work/work7
+                        Elapsed time = 6.000 secs
+                        Workload time = 27.003 secs
+PID 3578 - CMD: ../work/work7
+                        Elapsed time = 6.000 secs
+                        Workload time = 28.003 secs
+PID 3579 - CMD: ../work/work7
+                        Elapsed time = 6.000 secs
+                        Workload time = 29.003 secs
+PID 3580 - CMD: ../work/work7
+                        Elapsed time = 6.000 secs
+                        Workload time = 30.003 secs
+process 3576 ends
+PID 3576 - CMD: ../work/work7
+                        Elapsed time = 7.379 secs
+                        Workload time = 31.382 secs
+process 3577 ends
+PID 3577 - CMD: ../work/work7
+                        Elapsed time = 7.450 secs
+                        Workload time = 32.832 secs
+process 3578 ends
+PID 3578 - CMD: ../work/work7
+                        Elapsed time = 7.397 secs
+                        Workload time = 34.229 secs
+process 3579 ends
+PID 3579 - CMD: ../work/work7
+                        Elapsed time = 7.356 secs
+                        Workload time = 35.585 secs
+process 3580 ends
+PID 3580 - CMD: ../work/work7
+                        Elapsed time = 7.349 secs
+                        Workload time = 36.934 secs
+WORKLOAD TIME: 36.934 seconds
+
+---> BATCH <---
+
+PID 3620 - CMD: work7
+process 3620 begins
+process 3620 ends
+                        Elapsed time = 7.343 secs
+                        Workload time = 7.343 secs
+PID 3621 - CMD: work6
+process 3621 begins
+process 3621 ends
+                        Elapsed time = 6.273 secs
+                        Workload time = 13.616 secs
+PID 3622 - CMD: work5
+process 3622 begins
+process 3622 ends
+                        Elapsed time = 5.256 secs
+                        Workload time = 18.873 secs
+PID 3623 - CMD: work4
+process 3623 begins
+process 3623 ends
+                        Elapsed time = 4.246 secs
+                        Workload time = 23.118 secs
+PID 3624 - CMD: work3
+process 3624 begins
+process 3624 ends
+                        Elapsed time = 3.191 secs
+                        Workload time = 26.309 secs
+PID 3625 - CMD: work2
+process 3625 begins
+process 3625 ends
+                        Elapsed time = 2.106 secs
+                        Workload time = 28.416 secs
+PID 3626 - CMD: work1
+process 3626 begins
+process 3626 ends
+                        Elapsed time = 1.079 secs
+                        Workload time = 29.495 secs
+WORKLOAD TIME: 29.495 seconds
+
+---> SJF <---
+
+PID 3666 - CMD: work1
+process 3666 begins
+process 3666 ends
+                        Elapsed time = 1.063 secs
+                        Workload time = 1.063 secs
+PID 3667 - CMD: work2
+process 3667 begins
+process 3667 ends
+                        Elapsed time = 2.140 secs
+                        Workload time = 3.203 secs
+PID 3668 - CMD: work3
+process 3668 begins
+process 3668 ends
+                        Elapsed time = 3.196 secs
+                        Workload time = 6.399 secs
+PID 3669 - CMD: work4
+process 3669 begins
+process 3669 ends
+                        Elapsed time = 4.206 secs
+                        Workload time = 10.604 secs
+PID 3670 - CMD: work5
+process 3670 begins
+process 3670 ends
+                        Elapsed time = 5.386 secs
+                        Workload time = 15.990 secs
+PID 3671 - CMD: work6
+process 3671 begins
+process 3671 ends
+                        Elapsed time = 6.274 secs
+                        Workload time = 22.265 secs
+PID 3672 - CMD: work7
+process 3672 begins
+process 3672 ends
+                        Elapsed time = 7.408 secs
+                        Workload time = 29.673 secs
+WORKLOAD TIME: 29.673 seconds
+
+---> RR <---
+
+process 3712 begins
+PID 3712 - CMD: ../work/work7
+                        Elapsed time = 1.000 secs
+                        Workload time = 1.000 secs
+process 3713 begins
+PID 3713 - CMD: ../work/work6
+                        Elapsed time = 1.000 secs
+                        Workload time = 2.001 secs
+process 3714 begins
+PID 3714 - CMD: ../work/work5
+                        Elapsed time = 1.000 secs
+                        Workload time = 3.001 secs
+process 3715 begins
+PID 3715 - CMD: ../work/work4
+                        Elapsed time = 1.000 secs
+                        Workload time = 4.001 secs
+process 3716 begins
+PID 3716 - CMD: ../work/work3
+                        Elapsed time = 1.000 secs
+                        Workload time = 5.001 secs
+process 3717 begins
+PID 3717 - CMD: ../work/work2
+                        Elapsed time = 1.000 secs
+                        Workload time = 6.001 secs
+process 3718 begins
+process 3718 ends
+PID 3718 - CMD: ../work/work1
+                        Elapsed time = 1.043 secs
+                        Workload time = 7.044 secs
+PID 3712 - CMD: ../work/work7
+                        Elapsed time = 2.000 secs
+                        Workload time = 8.044 secs
+PID 3713 - CMD: ../work/work6
+                        Elapsed time = 2.000 secs
+                        Workload time = 9.044 secs
+PID 3714 - CMD: ../work/work5
+                        Elapsed time = 2.000 secs
+                        Workload time = 10.044 secs
+PID 3715 - CMD: ../work/work4
+                        Elapsed time = 2.000 secs
+                        Workload time = 11.044 secs
+PID 3716 - CMD: ../work/work3
+                        Elapsed time = 2.000 secs
+                        Workload time = 12.044 secs
+process 3717 ends
+PID 3717 - CMD: ../work/work2
+                        Elapsed time = 2.102 secs
+                        Workload time = 13.146 secs
+PID 3712 - CMD: ../work/work7
+                        Elapsed time = 3.000 secs
+                        Workload time = 14.146 secs
+PID 3713 - CMD: ../work/work6
+                        Elapsed time = 3.000 secs
+                        Workload time = 15.146 secs
+PID 3714 - CMD: ../work/work5
+                        Elapsed time = 3.000 secs
+                        Workload time = 16.146 secs
+PID 3715 - CMD: ../work/work4
+                        Elapsed time = 3.000 secs
+                        Workload time = 17.146 secs
+process 3716 ends
+PID 3716 - CMD: ../work/work3
+                        Elapsed time = 3.140 secs
+                        Workload time = 18.286 secs
+PID 3712 - CMD: ../work/work7
+                        Elapsed time = 4.000 secs
+                        Workload time = 19.286 secs
+PID 3713 - CMD: ../work/work6
+                        Elapsed time = 4.000 secs
+                        Workload time = 20.286 secs
+PID 3714 - CMD: ../work/work5
+                        Elapsed time = 4.000 secs
+                        Workload time = 21.286 secs
+process 3715 ends
+PID 3715 - CMD: ../work/work4
+                        Elapsed time = 4.200 secs
+                        Workload time = 22.486 secs
+PID 3712 - CMD: ../work/work7
+                        Elapsed time = 5.000 secs
+                        Workload time = 23.486 secs
+PID 3713 - CMD: ../work/work6
+                        Elapsed time = 5.000 secs
+                        Workload time = 24.486 secs
+process 3714 ends
+PID 3714 - CMD: ../work/work5
+                        Elapsed time = 5.279 secs
+                        Workload time = 25.765 secs
+PID 3712 - CMD: ../work/work7
+                        Elapsed time = 6.000 secs
+                        Workload time = 26.770 secs
+process 3713 ends
+PID 3713 - CMD: ../work/work6
+                        Elapsed time = 6.314 secs
+                        Workload time = 28.084 secs
+process 3712 ends
+PID 3712 - CMD: ../work/work7
+                        Elapsed time = 7.504 secs
+                        Workload time = 29.589 secs
+WORKLOAD TIME: 29.589 seconds
+
+---> PRIO <---
+
+process 3758 begins
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 0.500 secs
+                        Workload time = 0.500 secs
+process 3759 begins
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 0.500 secs
+                        Workload time = 1.000 secs
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 1.000 secs
+                        Workload time = 1.500 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 1.000 secs
+                        Workload time = 2.000 secs
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 1.500 secs
+                        Workload time = 2.500 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 1.500 secs
+                        Workload time = 3.000 secs
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 2.000 secs
+                        Workload time = 3.500 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 2.000 secs
+                        Workload time = 4.000 secs
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 2.500 secs
+                        Workload time = 4.501 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 2.500 secs
+                        Workload time = 5.001 secs
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 3.000 secs
+                        Workload time = 5.501 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 3.000 secs
+                        Workload time = 6.001 secs
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 3.500 secs
+                        Workload time = 6.501 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 3.500 secs
+                        Workload time = 7.001 secs
+process 3758 ends
+PID 3758 - CMD: ../work/work4
+                        Elapsed time = 4.266 secs
+                        Workload time = 7.767 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 4.000 secs
+                        Workload time = 8.267 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 4.500 secs
+                        Workload time = 8.768 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 5.000 secs
+                        Workload time = 9.268 secs
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 5.500 secs
+                        Workload time = 9.768 secs
+process 3759 ends
+PID 3759 - CMD: ../work/work6
+                        Elapsed time = 6.374 secs
+                        Workload time = 10.642 secs
+process 3763 begins
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 0.500 secs
+                        Workload time = 11.142 secs
+process 3764 begins
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 0.500 secs
+                        Workload time = 11.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 1.000 secs
+                        Workload time = 12.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 1.000 secs
+                        Workload time = 12.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 1.500 secs
+                        Workload time = 13.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 1.500 secs
+                        Workload time = 13.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 2.000 secs
+                        Workload time = 14.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 2.000 secs
+                        Workload time = 14.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 2.500 secs
+                        Workload time = 15.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 2.500 secs
+                        Workload time = 15.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 3.000 secs
+                        Workload time = 16.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 3.000 secs
+                        Workload time = 16.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 3.500 secs
+                        Workload time = 17.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 3.500 secs
+                        Workload time = 17.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 4.000 secs
+                        Workload time = 18.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 4.000 secs
+                        Workload time = 18.643 secs
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 4.500 secs
+                        Workload time = 19.143 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 4.500 secs
+                        Workload time = 19.643 secs
+process 3763 ends
+PID 3763 - CMD: ../work/work5
+                        Elapsed time = 5.222 secs
+                        Workload time = 20.365 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 5.000 secs
+                        Workload time = 20.865 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 5.500 secs
+                        Workload time = 21.365 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 6.000 secs
+                        Workload time = 21.866 secs
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 6.500 secs
+                        Workload time = 22.366 secs
+process 3764 ends
+PID 3764 - CMD: ../work/work7
+                        Elapsed time = 7.348 secs
+                        Workload time = 23.214 secs
+WORKLOAD TIME: 23.214 seconds

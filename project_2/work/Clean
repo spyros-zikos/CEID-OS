@@ -1,0 +1,4 @@
+all: clean
+
+clean: ../work/
+	rm -f ../work/work[1-7]
